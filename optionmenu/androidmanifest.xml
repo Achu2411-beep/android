@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:label="Option Menu App"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Optionmenu">
+
+        <!-- About Activity -->
+        <activity
+            android:name=".Aboutactivity"
+            android:exported="false" />
+        <activity
+            android:name=".VijayActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Karthi"
+            android:exported="false" />
+
+        <!-- Home Activity -->
+        <activity
+            android:name=".Homeactivity"
+            android:exported="false" />
+
+        <!-- Main Activity -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+    </application>
+
+</manifest>
